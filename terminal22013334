@@ -1,0 +1,201 @@
+(base) MacBook-Pro-de-Ale-2:~ aleemc11$ kaggle datasets list -s "titanic"
+Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /Users/aleemc11/.kaggle/kaggle.json'
+ref                                                 title                                           size  lastUpdated          downloadCount  voteCount  usabilityRating  
+--------------------------------------------------  ---------------------------------------------  -----  -------------------  -------------  ---------  ---------------  
+heptapod/titanic                                    Titanic                                         11KB  2017-05-16 08:14:22          45677        857  0.7058824        
+brendan45774/test-file                              Titanic dataset                                 11KB  2021-12-02 16:11:42          33007        368  1.0              
+azeembootwala/titanic                               Titanic                                         12KB  2017-06-05 12:14:37          14649        152  0.8235294        
+rahulsah06/titanic                                  Titanic                                         34KB  2019-09-16 14:43:23           4540         58  0.6764706        
+prkukunoor/TitanicDataset                           Titanic                                        135KB  2017-01-03 22:01:13           4927         25  0.5882353        
+yasserh/titanic-dataset                             Titanic Dataset                                 22KB  2021-12-24 14:53:06           2436         30  1.0              
+fossouodonald/titaniccsv                            Titanic csv                                      1KB  2016-11-07 09:44:58          10276         65  0.5882353        
+hesh97/titanicdataset-traincsv                      Titanic-Dataset (train.csv)                     22KB  2018-02-02 04:51:06          60275        408  0.4117647        
+broaniki/titanic                                    titanic                                        717KB  2018-01-30 04:08:45           8119        129  0.1764706        
+jamesleslie/titanic-cleaned-data                    Titanic: cleaned data                           36KB  2018-11-21 11:50:18           5351         59  0.7647059        
+pavlofesenko/titanic-extended                       Titanic extended dataset (Kaggle + Wikipedia)  134KB  2019-03-06 09:53:24           9868        136  0.9411765        
+kittisaks/testtitanic                               test titanic                                    22KB  2017-03-13 15:13:12           1748         33  0.64705884       
+abhinavralhan/titanic                               titanic                                         22KB  2017-07-30 11:07:55            660         14  0.8235294        
+cities/titanic123                                   Titanic Dataset Analysis                        22KB  2017-02-07 23:15:54           1826         33  0.5294118        
+brendan45774/gender-submisson                       Titanic: all ones csv file                      942B  2021-02-12 19:18:32            707         38  0.9411765        
+ibrahimelsayed182/titanic-dataset                   Titanic dataset                                  6KB  2022-01-27 07:41:54            533         14  1.0              
+harunshimanto/titanic-solution-for-beginners-guide  Titanic Solution for Beginner's Guide           34KB  2018-03-12 17:47:06           1513         23  0.7058824        
+vinicius150987/titanic3                             The Complete Titanic Dataset                   277KB  2020-01-04 18:24:11           2363         28  0.64705884       
+sureshbhusare/titanic-dataset-from-kaggle           Titanic DataSet from Kaggle                     33KB  2017-10-12 04:49:39           2876         28  0.4117647        
+shravanbangera/output                               Titanic Dataset                                  2KB  2020-09-25 05:28:42            166         10  1.0              
+(base) MacBook-Pro-de-Ale-2:~ aleemc11$ kaggle datasets download -d 'heptapod/titanic'
+Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /Users/aleemc11/.kaggle/kaggle.json'
+Downloading titanic.zip to /Users/aleemc11
+
+  0%|                                                                                    | 0.00/10.8k [00:00<?, ?B/s]
+
+100%|████████████████████████████████████████████████████████████████████████████| 10.8k/10.8k [00:00<00:00, 148kB/s]
+(base) MacBook-Pro-de-Ale-2:~ aleemc11$ clear
+(base) MacBook-Pro-de-Ale-2:~ aleemc11$ cd Desktop
+(base) MacBook-Pro-de-Ale-2:Desktop aleemc11$ cd LPE22013334
+(base) MacBook-Pro-de-Ale-2:LPE22013334 aleemc11$ cd ..
+(base) MacBook-Pro-de-Ale-2:Desktop aleemc11$ mkdir lpe22013334
+mkdir: lpe22013334: File exists
+(base) MacBook-Pro-de-Ale-2:Desktop aleemc11$ cd ..
+(base) MacBook-Pro-de-Ale-2:~ aleemc11$ mkdir lpe22013334
+(base) MacBook-Pro-de-Ale-2:~ aleemc11$ cd lpe22013334
+(base) MacBook-Pro-de-Ale-2:lpe22013334 aleemc11$ kaggle datasets list -s "España"
+Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /Users/aleemc11/.kaggle/kaggle.json'
+ref                                                             title                                              size  lastUpdated          downloadCount  voteCount  usabilityRating  
+--------------------------------------------------------------  ------------------------------------------------  -----  -------------------  -------------  ---------  ---------------  
+ricardomoya/tweets-poltica-espaa                                Tweets Política España                             17MB  2022-04-29 12:58:07             86          5  1.0              
+fcojavt/municipios-spain                                        Municipios de España                              224KB  2020-05-18 15:35:15            119          6  0.7058824        
+nicholasjhana/energy-consumption-generation-prices-and-weather  Hourly energy demand generation and weather         4MB  2019-10-10 14:02:37          12777        276  1.0              
+datashyends/programas10n                                        Programas Elecciones España 10-N 2019             228KB  2019-11-10 17:11:33             24          1  1.0              
+datamarket/movilidad-de-personas                                Movilidad de personas                              32MB  2021-02-05 08:49:55            109          5  1.0              
+mikelmoli/municipal-postal-codes-spain-cdigos-postales          Municipal Postal Codes of Spain                   394KB  2022-02-26 11:40:14             37         10  0.7647059        
+datamarket/noticias-economicas                                  Noticias Económicas                                16MB  2021-02-09 18:42:15             55          7  0.9411765        
+datamarket/ofertas-de-mvil-fibra-y-tv                           Ofertas de móvil, fibra y TV                       12KB  2021-02-11 17:46:13             39          5  0.9411765        
+xaxipirulazo/red-electrica-espaola-consumo-y-precios            Red Electrica De España                           308KB  2020-03-26 14:40:32             47          1  0.4117647        
+sszbigdata/pib-y-paro-en-espaa                                  PIB y paro en España                               852B  2018-09-14 12:22:16            100          1  0.75             
+datamarket/productos-de-supermercados                           Productos de supermercados                         19MB  2021-02-17 08:36:55            463          8  0.9411765        
+datamarket/ofertas-de-trabajo                                   Ofertas de empleo                                 189KB  2021-05-19 16:56:11             97          5  0.9411765        
+datamarket/viajes-en-tren                                       Viajes en tren                                     34MB  2021-02-09 18:57:10            161          5  0.9411765        
+jersey33/datos-elecciones-generales-19962016                    Datos elecciones generales 1996-2016 España         9KB  2018-11-16 13:23:48            177          5  0.23529412       
+datamarket/catastro                                             Catastro                                            3MB  2021-09-01 07:24:06             26          4  0.9411765        
+jessemostipak/tour-de-france-winners                            Tour de France Winners                              2MB  2020-04-07 15:13:22            420         10  1.0              
+datamarket/contratacion-publica                                 Contratación Pública                                2MB  2021-09-03 09:13:42             23          4  0.9411765        
+datamarket/boletines-oficiales                                  Boletines Oficiales                                 2MB  2021-07-02 08:48:38             14          3  0.9411765        
+jaimevalero/covid19-madrid                                      Covid19 Madrid                                     13KB  2022-06-21 17:08:52            271         19  0.8235294        
+manualrg/spanish-electricity-market-demand-gen-price            Spanish Electricity Market: Demand, Gen. & Price  285KB  2019-03-12 18:12:53           2066         37  0.7647059        
+(base) MacBook-Pro-de-Ale-2:lpe22013334 aleemc11$ 
+(base) MacBook-Pro-de-Ale-2:lpe22013334 aleemc11$ 
+(base) MacBook-Pro-de-Ale-2:lpe22013334 aleemc11$ kaggle datasets download -d 'Castastro"
+> 
+(base) MacBook-Pro-de-Ale-2:lpe22013334 aleemc11$ kaggle datasets download -d 'Catastro'
+Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /Users/aleemc11/.kaggle/kaggle.json'
+404 - Not Found
+(base) MacBook-Pro-de-Ale-2:lpe22013334 aleemc11$ kaggle datasets download -d "kaggle dCatastro"
+Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /Users/aleemc11/.kaggle/kaggle.json'
+404 - Not Found
+(base) MacBook-Pro-de-Ale-2:lpe22013334 aleemc11$ kaggle datasets download -d 'datamarket/catastro'
+Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /Users/aleemc11/.kaggle/kaggle.json'
+Downloading catastro.zip to /Users/aleemc11/lpe22013334
+
+  0%|                                                                                    | 0.00/3.41M [00:00<?, ?B/s]
+ 29%|█████████████████████▉                                                     | 1.00M/3.41M [00:00<00:00, 2.71MB/s]
+ 59%|███████████████████████████████████████████▉                               | 2.00M/3.41M [00:00<00:00, 3.82MB/s]
+ 88%|█████████████████████████████████████████████████████████████████▉         | 3.00M/3.41M [00:00<00:00, 3.29MB/s]
+100%|███████████████████████████████████████████████████████████████████████████| 3.41M/3.41M [00:01<00:00, 3.35MB/s]
+
+100%|███████████████████████████████████████████████████████████████████████████| 3.41M/3.41M [00:01<00:00, 3.32MB/s]
+(base) MacBook-Pro-de-Ale-2:lpe22013334 aleemc11$ git init
+Initialized empty Git repository in /Users/aleemc11/lpe22013334/.git/
+(base) MacBook-Pro-de-Ale-2:lpe22013334 aleemc11$ 
+(base) MacBook-Pro-de-Ale-2:lpe22013334 aleemc11$ 
+(base) MacBook-Pro-de-Ale-2:lpe22013334 aleemc11$ 
+(base) MacBook-Pro-de-Ale-2:lpe22013334 aleemc11$ git clone https:/ https://github.com/Aleemc11/lpe22013 
+334exam.git
+Cloning into 'lpe22013334exam'...
+warning: You appear to have cloned an empty repository.
+(base) MacBook-Pro-de-Ale-2:lpe22013334 aleemc11$ git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.DS_Store
+	catastro-sample-original.csv
+	catastro-sample.csv
+	catastro.zip
+	lpe22013334.R
+	lpe22013334exam/
+	practica22013334.R
+
+nothing added to commit but untracked files present (use "git add" to track)
+(base) MacBook-Pro-de-Ale-2:lpe22013334 aleemc11$ git add .
+error: 'lpe22013334exam/' does not have a commit checked out
+fatal: adding files failed
+(base) MacBook-Pro-de-Ale-2:lpe22013334 aleemc11$ git remote add origin https://github.com/Aleem 
+c11/lpe22013334exam.git
+(base) MacBook-Pro-de-Ale-2:lpe22013334 aleemc11$ git branch -M main
+(base) MacBook-Pro-de-Ale-2:lpe22013334 aleemc11$ git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/Aleemc11/lpe22013334exam.git'
+(base) MacBook-Pro-de-Ale-2:lpe22013334 aleemc11$ git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.DS_Store
+	catastro-sample-original.csv
+	catastro-sample.csv
+	catastro.zip
+	lpe22013334.R
+	lpe22013334exam/
+	practica22013334.R
+
+nothing added to commit but untracked files present (use "git add" to track)
+(base) MacBook-Pro-de-Ale-2:lpe22013334 aleemc11$ git add .
+error: 'lpe22013334exam/' does not have a commit checked out
+fatal: adding files failed
+(base) MacBook-Pro-de-Ale-2:lpe22013334 aleemc11$ cd lpe22013334exam
+(base) MacBook-Pro-de-Ale-2:lpe22013334exam aleemc11$ git status
+On branch main
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+(base) MacBook-Pro-de-Ale-2:lpe22013334exam aleemc11$ git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.DS_Store
+	catastro-sample-original.csv
+	catastro-sample.csv
+	catastro.zip
+	lpe22013334.R
+
+nothing added to commit but untracked files present (use "git add" to track)
+(base) MacBook-Pro-de-Ale-2:lpe22013334exam aleemc11$ git add .
+(base) MacBook-Pro-de-Ale-2:lpe22013334exam aleemc11$ git commit -m "Prueba de subida examen par 
+te pr�áctica"
+[main (root-commit) bf08b45] Prueba de subida examen parte práctica
+ 5 files changed, 120017 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 catastro-sample-original.csv
+ create mode 100644 catastro-sample.csv
+ create mode 100644 catastro.zip
+ create mode 100644 lpe22013334.R
+(base) MacBook-Pro-de-Ale-2:lpe22013334exam aleemc11$ git push -u origin main
+Enumerating objects: 6, done.
+Counting objects:  16% (1/6)
+Counting objects:  33% (2/6)
+Counting objects:  50% (3/6)
+Counting objects:  66% (4/6)
+Counting objects:  83% (5/6)
+Counting objects: 100% (6/6)
+Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects:  16% (1/6)
+Compressing objects:  33% (2/6)
+Compressing objects:  50% (3/6)
+Compressing objects:  66% (4/6)
+Compressing objects:  83% (5/6)
+Compressing objects: 100% (6/6)
+Compressing objects: 100% (6/6), done.
+Writing objects:  16% (1/6)
+Writing objects:  33% (2/6)
+Writing objects:  50% (3/6)
+Writing objects:  50% (3/6), 1.07 MiB | 1.74 MiB/s
+Writing objects:  66% (4/6), 1.07 MiB | 1.74 MiB/s
+Writing objects:  66% (4/6), 6.73 MiB | 3.87 MiB/s
+Writing objects:  83% (5/6), 6.73 MiB | 3.87 MiB/s
+Writing objects: 100% (6/6), 6.73 MiB | 3.87 MiB/s
+Writing objects: 100% (6/6), 6.77 MiB | 3.02 MiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Aleemc11/lpe22013334exam.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+(base) MacBook-Pro-de-Ale-2:lpe22013334exam aleemc11$ 
+(base) MacBook-Pro-de-Ale-2:lpe22013334exam aleemc11$ 
